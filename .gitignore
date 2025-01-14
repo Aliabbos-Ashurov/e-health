@@ -163,4 +163,5 @@ fabric.properties
 .mvn
 mvnw.cmd
 mvnw
+/.mvn/wrapper
 
