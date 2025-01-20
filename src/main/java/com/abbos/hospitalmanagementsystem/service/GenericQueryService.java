@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.service;
 
-import com.abbos.brainwave_matrix_intern.dto.marker.Response;
-import com.abbos.brainwave_matrix_intern.entity.BaseDomain;
+import com.abbos.hospitalmanagementsystem.dto.marker.Response;
+import com.abbos.hospitalmanagementsystem.entity.BaseDomain;
 import jakarta.validation.constraints.NotNull;
 
 import java.io.Serializable;
@@ -17,7 +17,7 @@ public interface GenericQueryService<
         R extends Response>
         extends GenericService {
 
-    com.abbos.brainwave_matrix_intern.dto.Response<R> find(@NotNull ID id);
+    com.abbos.hospitalmanagementsystem.dto.Response<R> find(@NotNull ID id);
 
-    com.abbos.brainwave_matrix_intern.dto.Response<List<R>> findAll();
+    com.abbos.hospitalmanagementsystem.dto.Response<List<R>> findAll();
 }

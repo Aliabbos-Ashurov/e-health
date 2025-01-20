@@ -1,8 +1,8 @@
 package com.abbos.hospitalmanagementsystem.mapper;
 
-import com.abbos.brainwave_matrix_intern.dto.marker.Request;
-import com.abbos.brainwave_matrix_intern.dto.marker.Response;
-import com.abbos.brainwave_matrix_intern.entity.BaseDomain;
+import com.abbos.hospitalmanagementsystem.dto.marker.Request;
+import com.abbos.hospitalmanagementsystem.dto.marker.Response;
+import com.abbos.hospitalmanagementsystem.entity.BaseDomain;
 
 /**
  * @author Aliabbos Ashurov

@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.service;
 
-import com.abbos.brainwave_matrix_intern.mapper.Mapper;
-import com.abbos.brainwave_matrix_intern.repository.Repository;
+import com.abbos.hospitalmanagementsystem.mapper.Mapper;
+import com.abbos.hospitalmanagementsystem.repository.Repository;
 import lombok.RequiredArgsConstructor;
 
 /**
