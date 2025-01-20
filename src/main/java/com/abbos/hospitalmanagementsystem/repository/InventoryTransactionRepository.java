@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.repository;
 
-import com.abbos.brainwave_matrix_intern.entity.InventoryTransaction;
-import com.abbos.brainwave_matrix_intern.enums.TransactionType;
+import com.abbos.hospitalmanagementsystem.entity.InventoryTransaction;
+import com.abbos.hospitalmanagementsystem.enums.TransactionType;
 import jakarta.validation.constraints.NotNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

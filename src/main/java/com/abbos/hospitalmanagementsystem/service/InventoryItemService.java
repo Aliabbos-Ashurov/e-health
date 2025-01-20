@@ -1,10 +1,10 @@
 package com.abbos.hospitalmanagementsystem.service;
 
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemUpdateDTO;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.entity.InventoryItem;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemUpdateDTO;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.entity.InventoryItem;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 

@@ -1,9 +1,9 @@
 package com.abbos.hospitalmanagementsystem.mapper;
 
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemUpdateDTO;
-import com.abbos.brainwave_matrix_intern.entity.InventoryItem;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemUpdateDTO;
+import com.abbos.hospitalmanagementsystem.entity.InventoryItem;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
 

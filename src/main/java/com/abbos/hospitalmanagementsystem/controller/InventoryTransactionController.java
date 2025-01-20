@@ -1,11 +1,11 @@
 package com.abbos.hospitalmanagementsystem.controller;
 
-import com.abbos.brainwave_matrix_intern.dto.InventoryTransactionCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.InventoryTransactionResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.InventoryTransactionUpdateDTO;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.service.InventoryTransactionService;
-import com.abbos.brainwave_matrix_intern.utils.Constants;
+import com.abbos.hospitalmanagementsystem.dto.InventoryTransactionCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.InventoryTransactionResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.InventoryTransactionUpdateDTO;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.service.InventoryTransactionService;
+import com.abbos.hospitalmanagementsystem.utils.Constants;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-import static com.abbos.brainwave_matrix_intern.utils.HttpMethod.*;
+import static com.abbos.hospitalmanagementsystem.utils.HttpMethod.*;
 
 /**
  * @author Aliabbos Ashurov

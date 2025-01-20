@@ -1,14 +1,14 @@
 package com.abbos.hospitalmanagementsystem.service.impl;
 
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.InventoryItemUpdateDTO;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.exception.ResourceNotFoundException;
-import com.abbos.brainwave_matrix_intern.mapper.InventoryItemMapper;
-import com.abbos.brainwave_matrix_intern.repository.InventoryItemRepository;
-import com.abbos.brainwave_matrix_intern.service.AbstractService;
-import com.abbos.brainwave_matrix_intern.service.InventoryItemService;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.InventoryItemUpdateDTO;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.exception.ResourceNotFoundException;
+import com.abbos.hospitalmanagementsystem.mapper.InventoryItemMapper;
+import com.abbos.hospitalmanagementsystem.repository.InventoryItemRepository;
+import com.abbos.hospitalmanagementsystem.service.AbstractService;
+import com.abbos.hospitalmanagementsystem.service.InventoryItemService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

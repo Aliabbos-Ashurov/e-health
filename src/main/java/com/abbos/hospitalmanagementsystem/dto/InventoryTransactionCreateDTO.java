@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.dto;
 
-import com.abbos.brainwave_matrix_intern.dto.marker.Request;
-import com.abbos.brainwave_matrix_intern.enums.TransactionType;
+import com.abbos.hospitalmanagementsystem.dto.marker.Request;
+import com.abbos.hospitalmanagementsystem.enums.TransactionType;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.validation.constraints.NotNull;

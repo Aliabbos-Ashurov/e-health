@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.entity;
 
-import com.abbos.brainwave_matrix_intern.enums.TransactionType;
+import com.abbos.hospitalmanagementsystem.enums.TransactionType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
