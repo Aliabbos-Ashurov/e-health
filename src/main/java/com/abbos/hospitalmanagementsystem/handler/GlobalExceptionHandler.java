@@ -1,8 +1,8 @@
 package com.abbos.hospitalmanagementsystem.handler;
 
-import com.abbos.brainwave_matrix_intern.dto.ErrorResponse;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.exception.BaseException;
+import com.abbos.hospitalmanagementsystem.dto.ErrorResponse;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.exception.BaseException;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

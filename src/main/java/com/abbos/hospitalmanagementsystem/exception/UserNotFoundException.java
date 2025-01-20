@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.exception;
 
-import com.abbos.brainwave_matrix_intern.utils.ErrorCode;
+import com.abbos.hospitalmanagementsystem.utils.ErrorCode;
 import org.springframework.http.HttpStatus;
 
 /**
