@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.entity;
 
-import com.abbos.brainwave_matrix_intern.enums.AppointmentStatus;
+import com.abbos.hospitalmanagementsystem.enums.AppointmentStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

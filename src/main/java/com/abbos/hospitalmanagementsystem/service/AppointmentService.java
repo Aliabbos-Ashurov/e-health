@@ -1,10 +1,10 @@
 package com.abbos.hospitalmanagementsystem.service;
 
-import com.abbos.brainwave_matrix_intern.dto.AppointmentCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.AppointmentResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.AppointmentUpdateDTO;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.entity.Appointment;
+import com.abbos.hospitalmanagementsystem.dto.AppointmentCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.AppointmentResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.AppointmentUpdateDTO;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.entity.Appointment;
 import jakarta.validation.constraints.NotNull;
 
 import java.util.List;
