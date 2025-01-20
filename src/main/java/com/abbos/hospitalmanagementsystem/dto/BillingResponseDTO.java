@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.dto;
 
-import com.abbos.brainwave_matrix_intern.dto.marker.Response;
-import com.abbos.brainwave_matrix_intern.enums.BillingType;
+import com.abbos.hospitalmanagementsystem.dto.marker.Response;
+import com.abbos.hospitalmanagementsystem.enums.BillingType;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;

@@ -1,9 +1,9 @@
 package com.abbos.hospitalmanagementsystem.mapper;
 
-import com.abbos.brainwave_matrix_intern.dto.BillingCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.BillingResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.BillingUpdateDTO;
-import com.abbos.brainwave_matrix_intern.entity.Billing;
+import com.abbos.hospitalmanagementsystem.dto.BillingCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.BillingResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.BillingUpdateDTO;
+import com.abbos.hospitalmanagementsystem.entity.Billing;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
 

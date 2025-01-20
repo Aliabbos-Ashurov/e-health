@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.entity;
 
-import com.abbos.brainwave_matrix_intern.enums.BillingType;
+import com.abbos.hospitalmanagementsystem.enums.BillingType;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotNull;

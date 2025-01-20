@@ -1,11 +1,11 @@
 package com.abbos.hospitalmanagementsystem.service;
 
-import com.abbos.brainwave_matrix_intern.dto.BillingCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.BillingResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.BillingUpdateDTO;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.entity.Billing;
-import com.abbos.brainwave_matrix_intern.enums.BillingType;
+import com.abbos.hospitalmanagementsystem.dto.BillingCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.BillingResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.BillingUpdateDTO;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.entity.Billing;
+import com.abbos.hospitalmanagementsystem.enums.BillingType;
 import jakarta.validation.constraints.NotNull;
 
 import java.util.List;

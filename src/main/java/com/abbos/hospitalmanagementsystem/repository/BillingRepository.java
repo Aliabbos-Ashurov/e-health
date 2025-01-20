@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.repository;
 
-import com.abbos.brainwave_matrix_intern.entity.Billing;
-import com.abbos.brainwave_matrix_intern.enums.BillingType;
+import com.abbos.hospitalmanagementsystem.entity.Billing;
+import com.abbos.hospitalmanagementsystem.enums.BillingType;
 import jakarta.validation.constraints.NotNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

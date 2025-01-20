@@ -1,17 +1,17 @@
 package com.abbos.hospitalmanagementsystem.service.impl;
 
-import com.abbos.brainwave_matrix_intern.dto.BillingCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.BillingResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.BillingUpdateDTO;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.entity.Patient;
-import com.abbos.brainwave_matrix_intern.enums.BillingType;
-import com.abbos.brainwave_matrix_intern.exception.ResourceNotFoundException;
-import com.abbos.brainwave_matrix_intern.mapper.BillingMapper;
-import com.abbos.brainwave_matrix_intern.repository.BillingRepository;
-import com.abbos.brainwave_matrix_intern.service.AbstractService;
-import com.abbos.brainwave_matrix_intern.service.BillingService;
-import com.abbos.brainwave_matrix_intern.service.PatientService;
+import com.abbos.hospitalmanagementsystem.dto.BillingCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.BillingResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.BillingUpdateDTO;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.entity.Patient;
+import com.abbos.hospitalmanagementsystem.enums.BillingType;
+import com.abbos.hospitalmanagementsystem.exception.ResourceNotFoundException;
+import com.abbos.hospitalmanagementsystem.mapper.BillingMapper;
+import com.abbos.hospitalmanagementsystem.repository.BillingRepository;
+import com.abbos.hospitalmanagementsystem.service.AbstractService;
+import com.abbos.hospitalmanagementsystem.service.BillingService;
+import com.abbos.hospitalmanagementsystem.service.PatientService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
