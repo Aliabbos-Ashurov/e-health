@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.config;
 
-import com.abbos.brainwave_matrix_intern.utils.Constants;
+import com.abbos.hospitalmanagementsystem.utils.Constants;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

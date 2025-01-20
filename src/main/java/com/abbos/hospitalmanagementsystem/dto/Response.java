@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.dto;
 
-import com.abbos.brainwave_matrix_intern.dto.marker.DTO;
+import com.abbos.hospitalmanagementsystem.dto.marker.DTO;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.Setter;

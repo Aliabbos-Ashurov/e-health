@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.dto.auth;
 
-import com.abbos.brainwave_matrix_intern.dto.marker.Response;
-import com.abbos.brainwave_matrix_intern.enums.TokenType;
+import com.abbos.hospitalmanagementsystem.dto.marker.Response;
+import com.abbos.hospitalmanagementsystem.enums.TokenType;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.validation.constraints.NotNull;

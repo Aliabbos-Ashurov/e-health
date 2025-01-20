@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.config;
 
-import com.abbos.brainwave_matrix_intern.dto.ErrorResponse;
+import com.abbos.hospitalmanagementsystem.dto.ErrorResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.ServletOutputStream;
 import jakarta.servlet.http.HttpServletResponse;

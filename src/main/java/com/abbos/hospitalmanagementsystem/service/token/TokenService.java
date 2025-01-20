@@ -1,11 +1,11 @@
 package com.abbos.hospitalmanagementsystem.service.token;
 
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.dto.auth.TokenResponseDTO;
-import com.abbos.brainwave_matrix_intern.exception.TokenExpiredException;
-import com.abbos.brainwave_matrix_intern.exception.UserNotFoundException;
-import com.abbos.brainwave_matrix_intern.repository.UserRepository;
-import com.abbos.brainwave_matrix_intern.utils.JwtTokenUtil;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.dto.auth.TokenResponseDTO;
+import com.abbos.hospitalmanagementsystem.exception.TokenExpiredException;
+import com.abbos.hospitalmanagementsystem.exception.UserNotFoundException;
+import com.abbos.hospitalmanagementsystem.repository.UserRepository;
+import com.abbos.hospitalmanagementsystem.utils.JwtTokenUtil;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
