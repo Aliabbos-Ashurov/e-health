@@ -1,13 +1,13 @@
 package com.abbos.hospitalmanagementsystem.service.impl;
 
-import com.abbos.brainwave_matrix_intern.config.SessionUser;
-import com.abbos.brainwave_matrix_intern.dto.*;
-import com.abbos.brainwave_matrix_intern.entity.User;
-import com.abbos.brainwave_matrix_intern.exception.UserNotFoundException;
-import com.abbos.brainwave_matrix_intern.mapper.UserMapper;
-import com.abbos.brainwave_matrix_intern.repository.UserRepository;
-import com.abbos.brainwave_matrix_intern.service.AbstractService;
-import com.abbos.brainwave_matrix_intern.service.UserService;
+import com.abbos.hospitalmanagementsystem.config.SessionUser;
+import com.abbos.hospitalmanagementsystem.dto.*;
+import com.abbos.hospitalmanagementsystem.entity.User;
+import com.abbos.hospitalmanagementsystem.exception.UserNotFoundException;
+import com.abbos.hospitalmanagementsystem.mapper.UserMapper;
+import com.abbos.hospitalmanagementsystem.repository.UserRepository;
+import com.abbos.hospitalmanagementsystem.service.AbstractService;
+import com.abbos.hospitalmanagementsystem.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

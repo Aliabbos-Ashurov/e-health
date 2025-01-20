@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.repository;
 
-import com.abbos.brainwave_matrix_intern.entity.User;
+import com.abbos.hospitalmanagementsystem.entity.User;
 import jakarta.validation.constraints.NotNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

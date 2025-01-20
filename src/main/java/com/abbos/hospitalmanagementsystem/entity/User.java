@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.entity;
 
-import com.abbos.brainwave_matrix_intern.enums.Role;
+import com.abbos.hospitalmanagementsystem.enums.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;

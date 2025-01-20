@@ -1,10 +1,10 @@
 package com.abbos.hospitalmanagementsystem.mapper;
 
-import com.abbos.brainwave_matrix_intern.config.CustomUserDetails;
-import com.abbos.brainwave_matrix_intern.dto.UserCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.UserResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.UserUpdateDTO;
-import com.abbos.brainwave_matrix_intern.entity.User;
+import com.abbos.hospitalmanagementsystem.config.CustomUserDetails;
+import com.abbos.hospitalmanagementsystem.dto.UserCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.UserResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.UserUpdateDTO;
+import com.abbos.hospitalmanagementsystem.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingConstants;
 

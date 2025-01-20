@@ -1,10 +1,10 @@
 package com.abbos.hospitalmanagementsystem.controller;
 
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.dto.UserResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.UserUpdateDTO;
-import com.abbos.brainwave_matrix_intern.service.UserService;
-import com.abbos.brainwave_matrix_intern.utils.Constants;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.dto.UserResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.UserUpdateDTO;
+import com.abbos.hospitalmanagementsystem.service.UserService;
+import com.abbos.hospitalmanagementsystem.utils.Constants;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -15,8 +15,8 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import static com.abbos.brainwave_matrix_intern.utils.HttpMethod._GET;
-import static com.abbos.brainwave_matrix_intern.utils.HttpMethod._PUT;
+import static com.abbos.hospitalmanagementsystem.utils.HttpMethod._GET;
+import static com.abbos.hospitalmanagementsystem.utils.HttpMethod._PUT;
 
 /**
  * @author Aliabbos Ashurov
