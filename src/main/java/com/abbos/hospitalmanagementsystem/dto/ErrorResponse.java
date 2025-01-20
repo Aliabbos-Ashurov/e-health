@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.dto;
 
-import com.abbos.brainwave_matrix_intern.dto.marker.Response;
+import com.abbos.hospitalmanagementsystem.dto.marker.Response;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.time.LocalDateTime;

@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.abbos.brainwave_matrix_intern.enums.Permission.*;
+import static com.abbos.hospitalmanagementsystem.enums.Permission.*;
 
 @Getter
 @AllArgsConstructor
