@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.repository;
 
-import com.abbos.brainwave_matrix_intern.entity.Patient;
-import com.abbos.brainwave_matrix_intern.enums.Gender;
+import com.abbos.hospitalmanagementsystem.entity.Patient;
+import com.abbos.hospitalmanagementsystem.enums.Gender;
 import jakarta.validation.constraints.NotNull;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

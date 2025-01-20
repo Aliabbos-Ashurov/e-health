@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.mapper;
 
-import com.abbos.brainwave_matrix_intern.dto.*;
-import com.abbos.brainwave_matrix_intern.entity.Patient;
+import com.abbos.hospitalmanagementsystem.dto.*;
+import com.abbos.hospitalmanagementsystem.entity.Patient;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;

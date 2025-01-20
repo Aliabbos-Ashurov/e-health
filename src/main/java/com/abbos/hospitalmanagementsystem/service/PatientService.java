@@ -1,11 +1,11 @@
 package com.abbos.hospitalmanagementsystem.service;
 
-import com.abbos.brainwave_matrix_intern.dto.PatientCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.PatientResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.PatientUpdateDTO;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.entity.Patient;
-import com.abbos.brainwave_matrix_intern.enums.Gender;
+import com.abbos.hospitalmanagementsystem.dto.PatientCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.PatientResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.PatientUpdateDTO;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.entity.Patient;
+import com.abbos.hospitalmanagementsystem.enums.Gender;
 import jakarta.validation.constraints.NotNull;
 
 import java.util.List;
