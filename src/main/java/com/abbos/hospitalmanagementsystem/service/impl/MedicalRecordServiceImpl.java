@@ -1,16 +1,16 @@
 package com.abbos.hospitalmanagementsystem.service.impl;
 
-import com.abbos.brainwave_matrix_intern.dto.MedicalRecordCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.MedicalRecordResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.MedicalRecordUpdateDTO;
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.entity.Patient;
-import com.abbos.brainwave_matrix_intern.exception.ResourceNotFoundException;
-import com.abbos.brainwave_matrix_intern.mapper.MedicalRecordMapper;
-import com.abbos.brainwave_matrix_intern.repository.MedicalRecordRepository;
-import com.abbos.brainwave_matrix_intern.service.AbstractService;
-import com.abbos.brainwave_matrix_intern.service.MedicalRecordService;
-import com.abbos.brainwave_matrix_intern.service.PatientService;
+import com.abbos.hospitalmanagementsystem.dto.MedicalRecordCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.MedicalRecordResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.MedicalRecordUpdateDTO;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.entity.Patient;
+import com.abbos.hospitalmanagementsystem.exception.ResourceNotFoundException;
+import com.abbos.hospitalmanagementsystem.mapper.MedicalRecordMapper;
+import com.abbos.hospitalmanagementsystem.repository.MedicalRecordRepository;
+import com.abbos.hospitalmanagementsystem.service.AbstractService;
+import com.abbos.hospitalmanagementsystem.service.MedicalRecordService;
+import com.abbos.hospitalmanagementsystem.service.PatientService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

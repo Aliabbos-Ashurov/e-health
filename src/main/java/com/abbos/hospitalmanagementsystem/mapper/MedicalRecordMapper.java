@@ -1,9 +1,9 @@
 package com.abbos.hospitalmanagementsystem.mapper;
 
-import com.abbos.brainwave_matrix_intern.dto.MedicalRecordCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.MedicalRecordResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.MedicalRecordUpdateDTO;
-import com.abbos.brainwave_matrix_intern.entity.MedicalRecord;
+import com.abbos.hospitalmanagementsystem.dto.MedicalRecordCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.MedicalRecordResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.MedicalRecordUpdateDTO;
+import com.abbos.hospitalmanagementsystem.entity.MedicalRecord;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;
