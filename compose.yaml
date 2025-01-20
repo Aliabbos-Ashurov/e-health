@@ -1,1 +1,22 @@
 services:
+  postgres:
+    image: ${PSG_DB_IMAGE_NAME}
+    container_name: ${PSG_DB_CONTAINER_NAME}
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "${DB_PORT}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - app-network
+    restart: always
+
+volumes:
+  postgres-data:
+
+networks:
+  app-network:
+    driver: bridge
