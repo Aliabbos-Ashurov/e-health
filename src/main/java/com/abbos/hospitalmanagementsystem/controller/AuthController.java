@@ -1,14 +1,14 @@
 package com.abbos.hospitalmanagementsystem.controller;
 
-import com.abbos.brainwave_matrix_intern.dto.Response;
-import com.abbos.brainwave_matrix_intern.dto.UserCreateDTO;
-import com.abbos.brainwave_matrix_intern.dto.UserResponseDTO;
-import com.abbos.brainwave_matrix_intern.dto.auth.RefreshTokenRequestDTO;
-import com.abbos.brainwave_matrix_intern.dto.auth.TokenRequestDTO;
-import com.abbos.brainwave_matrix_intern.dto.auth.TokenResponseDTO;
-import com.abbos.brainwave_matrix_intern.service.UserService;
-import com.abbos.brainwave_matrix_intern.service.token.TokenService;
-import com.abbos.brainwave_matrix_intern.utils.Constants;
+import com.abbos.hospitalmanagementsystem.dto.Response;
+import com.abbos.hospitalmanagementsystem.dto.UserCreateDTO;
+import com.abbos.hospitalmanagementsystem.dto.UserResponseDTO;
+import com.abbos.hospitalmanagementsystem.dto.auth.RefreshTokenRequestDTO;
+import com.abbos.hospitalmanagementsystem.dto.auth.TokenRequestDTO;
+import com.abbos.hospitalmanagementsystem.dto.auth.TokenResponseDTO;
+import com.abbos.hospitalmanagementsystem.service.UserService;
+import com.abbos.hospitalmanagementsystem.service.token.TokenService;
+import com.abbos.hospitalmanagementsystem.utils.Constants;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import static com.abbos.brainwave_matrix_intern.utils.HttpMethod._POST;
+import static com.abbos.hospitalmanagementsystem.utils.HttpMethod._POST;
 
 /**
  * @author Aliabbos Ashurov

@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.config;
 
-import com.abbos.brainwave_matrix_intern.utils.Constants;
-import com.abbos.brainwave_matrix_intern.utils.JwtTokenUtil;
+import com.abbos.hospitalmanagementsystem.utils.Constants;
+import com.abbos.hospitalmanagementsystem.utils.JwtTokenUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

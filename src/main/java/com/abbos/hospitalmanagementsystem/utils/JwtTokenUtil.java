@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.utils;
 
-import com.abbos.brainwave_matrix_intern.dto.auth.TokenDTO;
-import com.abbos.brainwave_matrix_intern.enums.Role;
+import com.abbos.hospitalmanagementsystem.dto.auth.TokenDTO;
+import com.abbos.hospitalmanagementsystem.enums.Role;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;

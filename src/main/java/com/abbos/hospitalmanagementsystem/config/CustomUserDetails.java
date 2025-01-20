@@ -1,6 +1,6 @@
 package com.abbos.hospitalmanagementsystem.config;
 
-import com.abbos.brainwave_matrix_intern.enums.Role;
+import com.abbos.hospitalmanagementsystem.enums.Role;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

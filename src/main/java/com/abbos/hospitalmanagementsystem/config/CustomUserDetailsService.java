@@ -1,7 +1,7 @@
 package com.abbos.hospitalmanagementsystem.config;
 
-import com.abbos.brainwave_matrix_intern.mapper.UserMapper;
-import com.abbos.brainwave_matrix_intern.service.UserService;
+import com.abbos.hospitalmanagementsystem.mapper.UserMapper;
+import com.abbos.hospitalmanagementsystem.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
