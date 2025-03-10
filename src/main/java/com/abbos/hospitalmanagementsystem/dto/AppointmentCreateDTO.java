@@ -25,5 +25,6 @@ public record AppointmentCreateDTO(
 
         @JsonProperty("appointment_status")
         @NotNull AppointmentStatus status
+        // NOT FORGET
 ) implements Request {
 }
